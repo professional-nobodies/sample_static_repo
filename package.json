@@ -1,0 +1,24 @@
+{
+  "name": "ReplaceMe",
+  "version": "1.0.0",
+  "description": "Basic Setup",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "browser-sync": "^2.17.5",
+    "eslint": "^3.9.1",
+    "eslint-config-google": "^0.7.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-csslint": "^1.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-htmlhint": "^0.3.1"
+  }
+}
