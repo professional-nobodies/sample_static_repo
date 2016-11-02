@@ -46,9 +46,4 @@ gulp.task('serve', () => {
     gulp.watch('app/styles/**/*.css', gulp.series('csslint', browserSync.reload));
 });
 
-gulp.task('lint', (done) => {
-  gulp.parallel('csslint', 'htmlhint', 'eslint');
-  return done();
-});
-
-gulp.task('default', gulp.series('lint', 'serve'));
+gulp.task('default', gulp.parallel('csslint', 'htmlhint', 'eslint'));
