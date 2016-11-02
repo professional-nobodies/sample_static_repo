@@ -4,7 +4,7 @@
   "description": "Basic Setup",
   "main": "gulpfile.babel.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp lint"
   },
   "author": "",
   "license": "ISC",
